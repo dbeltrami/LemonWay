@@ -1,5 +1,6 @@
 ﻿using System.Web.Services;
 using log4net;
+using LemonWay.Business;
 using LemonWayService;
 
 namespace LemonWay.Web

@@ -98,6 +98,7 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="LemonWayService.asmx" />
     <Content Include="packages.config" />
     <Content Include="ApplicationInsights.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
@@ -110,14 +111,13 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="LetmonWayService.asmx" />
     <Content Include="scripts\ai.0.22.9-build00167.js" />
     <Content Include="scripts\ai.0.22.9-build00167.min.js" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="LetmonWayService.asmx.cs">
-      <DependentUpon>LetmonWayService.asmx</DependentUpon>
+    <Compile Include="LemonWayService.asmx.cs">
+      <DependentUpon>LemonWayService.asmx</DependentUpon>
       <SubType>Component</SubType>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />

@@ -1,7 +1,7 @@
-﻿using log4net;
-using System;
+﻿using System;
+using log4net;
 
-namespace LemonWayService
+namespace LemonWay.Business
 {
     public class MathFunction
     {
